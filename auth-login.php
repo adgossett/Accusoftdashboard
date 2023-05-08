@@ -12,11 +12,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,500;1,200&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
+    function link_css($login.css) {
+    echo '<link rel="stylesheet" type="text/css" href="' . $login.css . '">';
+}
+    <?php
+link_css('login.css');
+?>
+
+
 </head>
 
 <body>
-<?php
-include(“dashboard.php”)?>
+
 
     <div class="container">
         <div class="sidebar">
