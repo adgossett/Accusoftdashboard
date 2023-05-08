@@ -15,8 +15,7 @@
 </head>
 
 <body>
-<?php
-include(“dashboard.php”)?>
+
 
     <div class="container">
         <div class="sidebar">
